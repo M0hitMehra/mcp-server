@@ -1,0 +1,31 @@
+{
+  "name": "mcp-mongo",
+  "version": "1.0.0",
+  "description": "Anthropic MCP server for MongoDB search (Node.js)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.ts",
+    "client": "nodemon mcp-client-sdk.js",
+    "server:watch": "set DANGEROUSLY_OMIT_AUTH=true && npx @modelcontextprotocol/inspector npm run dev",
+    "client:dev": "tsx client.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^2.0.39",
+    "@inquirer/prompts": "^8.0.1",
+    "@modelcontextprotocol/sdk": "^1.21.1",
+    "ai": "^5.0.97",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "nodemon": "^3.1.10",
+    "zod": "^3.23.8"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.20.6"
+  }
+}

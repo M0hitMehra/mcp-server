@@ -5,7 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "start": "tsx server.ts",
     "dev": "nodemon server.ts",
     "client": "nodemon mcp-client-sdk.js",
     "server:watch": "set DANGEROUSLY_OMIT_AUTH=true && npx @modelcontextprotocol/inspector npm run dev",
@@ -20,12 +20,14 @@
     "express": "^5.1.0",
     "mongodb": "^6.20.0",
     "nodemon": "^3.1.10",
+    "tsx": "^4.20.6",
     "zod": "^3.23.8"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tsx": "^4.20.6"
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0"
   }
 }

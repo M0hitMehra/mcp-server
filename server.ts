@@ -10,6 +10,10 @@ import {
   extractCompanyIdentifiers,
 } from "./helper.ts";
 
+
+
+
+
 const MONGO_URI =
   "mongodb+srv://finconic-dev:f0WW8QlcQxZwErVq@finconic-dev.genkn2z.mongodb.net/";
 let mongoClient: MongoClient | null = null;

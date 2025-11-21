@@ -12,7 +12,7 @@ import {
 
 
 
-
+console.log("hello")
 
 const MONGO_URI =
   "mongodb+srv://finconic-dev:f0WW8QlcQxZwErVq@finconic-dev.genkn2z.mongodb.net/";

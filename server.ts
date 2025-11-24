@@ -9,7 +9,7 @@ import {
   COMPANY_COLLECTIONS,
   extractCompanyIdentifiers,
 } from "./helper.ts";
-
+import cors from "cors";
 
 
 console.log("hello")
@@ -990,6 +990,7 @@ async function main() {
   if (process.env.TRANSPORT === 'http' || process.env.HTTP_PORT) {
     const app = express();
     app.use(express.json());
+    app.use(cors());
 
     // sksd
 

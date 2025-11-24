@@ -16,6 +16,7 @@
     "@inquirer/prompts": "^8.0.1",
     "@modelcontextprotocol/sdk": "^1.21.1",
     "ai": "^5.0.97",
+    "cors": "^2.8.5",
     "dotenv": "^16.6.1",
     "express": "^5.1.0",
     "mongodb": "^6.20.0",
